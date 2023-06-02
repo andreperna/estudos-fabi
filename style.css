@@ -54,9 +54,11 @@ body * {
 }
 
 #profile img {
-  width: 112px;
-  height: 112px;
+  width: 128px;
+  height: 128px;
   margin: auto;
+  border-radius: 50%;
+  border: 2px solid var(--stroke-color);
 }
 
 #profile p {
@@ -138,6 +140,7 @@ ul li a {
 ul li a:hover {
   background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
+  color: black;
 }
 
 /* social-links */
